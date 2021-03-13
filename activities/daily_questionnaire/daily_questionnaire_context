@@ -1,0 +1,26 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "daily_questionnaire": "https://raw.githubusercontent.com/hotavocado/GDQ-SL-EK/master/activities/daily_questionnaire/items/",
+        "K_tech": {
+            "@id": "daily_questionnaire:K_tech",
+            "@type": "@id"
+        },
+        "E_tech": {
+            "@id": "daily_questionnaire:E_tech",
+            "@type": "@id"
+        },
+        "E_anxious": {
+            "@id": "daily_questionnaire:E_anxious",
+            "@type": "@id"
+        },
+        "notes": {
+            "@id": "daily_questionnaire:notes",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "daily_questionnaire:thank_you",
+            "@type": "@id"
+        }
+    }
+}

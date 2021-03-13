@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/GDQ-SL-EK/master/activities/daily_questionnaire/daily_questionnaire_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "daily_questionnaire_schema",
+    "skos:prefLabel": "Daily Questionnaire",
+    "schema:description": "Answer a daily questionnaire about your kids",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "K_tech",
+                "isAbout": "K_tech",
+                "isVis": true
+            },
+            {
+                "variableName": "E_tech",
+                "isAbout": "E_tech",
+                "isVis": true
+            },
+            {
+                "variableName": "E_anxious",
+                "isAbout": "E_anxious",
+                "isVis": true
+            },
+            {
+                "variableName": "notes",
+                "isAbout": "notes",
+                "isVis": true
+            },
+            {
+                "variableName": "thank_you",
+                "isAbout": "thank_you",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "K_tech",
+            "E_tech",
+            "E_anxious",
+            "notes",
+            "thank_you"
+        ],
+        "shuffle": false
+    }
+}

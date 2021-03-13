@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "notes",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "Leave some additional notes about K and E today:"
+}

@@ -1,0 +1,6 @@
+Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,headerImage,headerImageSize,Field Type,multipleChoice,Allow,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
+K_tech,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your kids,,,radio,,autoAdvance,Did K earn tech today?,"1, Yes | 0, No",,,
+E_tech,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your kids,,,radio,,autoAdvance,Did E earn tech today?,"1, Yes | 0, No",,,
+E_anxious,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your kids,,,slider,,,Rate E's anxiety today:,"0, 0 | 1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",no anxiety,extremely anxious,
+notes,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your kids,,,text,,,Leave some additional notes about K and E today:,,,,
+thank_you,,daily_questionnaire,Daily Questionnaire,Answer a daily questionnaire about your kids,,,markdown-message,,,"Thanks for filling out your daily questionnaire on MindLogger, see you tomorrow!",,,,

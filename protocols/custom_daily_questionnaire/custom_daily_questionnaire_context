@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/GDQ-SL-EK/master/activities/",
+        "daily_questionnaire": {
+            "@id": "activity_path:daily_questionnaire/daily_questionnaire_schema",
+            "@type": "@id"
+        }
+    }
+}

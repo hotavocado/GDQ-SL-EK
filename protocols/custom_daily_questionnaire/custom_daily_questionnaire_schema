@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/GDQ-SL-EK/master/protocols/custom_daily_questionnaire/custom_daily_questionnaire_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "custom_daily_questionnaire_schema",
+    "skos:prefLabel": "Daily Questionnaire (E + K)",
+    "schema:description": "Answer a daily questionnaire about your kids",
+    "schema:image": "https://raw.githubusercontent.com/hotavocado/GDQ-SL-EK/master/images/CDQ.png",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/GDQ-CM-EI/main/protocols/custom_daily_questionnaire/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "daily_questionnaire",
+                "isAbout": "daily_questionnaire",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "daily_questionnaire"
+        ],
+        "shuffle": false
+    }
+}
